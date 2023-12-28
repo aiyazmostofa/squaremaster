@@ -1,0 +1,7 @@
+* SquareMaster
+A website to help me master squaring.
+
+[[https://aiyazmostofa.github.io/squaremaster][GitHub Pages]]
+
+** License
+[[file:LICENSE][GNU General Public License v3.0]]

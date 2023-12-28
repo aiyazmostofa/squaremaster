@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SquareMaster</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+
+  <body class="bg-gray-950 text-gray-50 text-3xl">
+    <div class="grid h-screen grid-rows-2">
+        <div class="flex justify-center items-center text-6xl" id="question">
+        </div>
+      <div class="grid grid-cols-3">
+        <div class="col-span-3 m-1 flex items-center justify-center p-2  bg-gray-900 rounded-xl" id="answer"></div>
+        <button onclick="input(7)" class="m-1 bg-gray-800 p-2  hover:bg-gray-700 active:bg-gray-900 rounded-xl"> 7 </button>
+        <button onclick="input(8)" class="m-1 bg-gray-800 p-2  hover:bg-gray-700 active:bg-gray-900 rounded-xl"> 8 </button>
+        <button onclick="input(9)" class="m-1 bg-gray-800 p-2  hover:bg-gray-700 active:bg-gray-900 rounded-xl"> 9 </button>
+        <button onclick="input(4)" class="m-1 bg-gray-800 p-2  hover:bg-gray-700 active:bg-gray-900 rounded-xl"> 4 </button>
+        <button onclick="input(5)" class="m-1 bg-gray-800 p-2  hover:bg-gray-700 active:bg-gray-900 rounded-xl"> 5 </button>
+        <button onclick="input(6)" class="m-1 bg-gray-800 p-2  hover:bg-gray-700 active:bg-gray-900 rounded-xl"> 6 </button>
+        <button onclick="input(1)" class="m-1 bg-gray-800 p-2  hover:bg-gray-700 active:bg-gray-900 rounded-xl"> 1 </button>
+        <button onclick="input(2)" class="m-1 bg-gray-800 p-2  hover:bg-gray-700 active:bg-gray-900 rounded-xl"> 2 </button>
+        <button onclick="input(3)" class="m-1 bg-gray-800 p-2  hover:bg-gray-700 active:bg-gray-900 rounded-xl"> 3 </button>
+        <button onclick="input(-1)" class="m-1 bg-green-800 p-2  hover:bg-green-700 active:bg-green-900 rounded-xl"> Enter </button>
+        <button onclick="input(0)" class="m-1 bg-gray-800 p-2  hover:bg-gray-700 active:bg-gray-900 rounded-xl"> 0 </button>
+        <button onclick="input(-2)" class="m-1 bg-red-800 p-2  hover:bg-red-700 active:bg-red-900 rounded-xl"> Delete </button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
