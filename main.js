@@ -28,7 +28,7 @@ function backspace() {
     return;
   }
 
-  answer = answer.substring(1);
+    answer = answer.substring(0, answer.length - 1);
 }
 
 function type(number) {
@@ -36,7 +36,7 @@ function type(number) {
     return;
   }
 
-  answer = number + answer;
+  answer = answer + number;
 }
 
 function correct() {
