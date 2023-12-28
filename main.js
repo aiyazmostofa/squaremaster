@@ -80,7 +80,7 @@ function init() {
     9: () => type(9),
     0: () => type(0),
     Enter: () => enter(),
-    Backspace: () => backspace,
+    Backspace: () => backspace(),
   };
 
   document.addEventListener(
